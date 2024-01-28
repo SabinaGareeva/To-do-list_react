@@ -1,0 +1,35 @@
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 14px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.notification-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.background-blue {
+  background-color: dodgerblue;
+}
+.background-green {
+  background-color: #48a630;
+}
+.background-red {
+  background-color: #da1e28;
+}
+.notification-close {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+}
